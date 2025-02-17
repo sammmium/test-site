@@ -6,5 +6,5 @@ services:
             - ./index.html:/usr/share/nginx/html/index.html
         ports:
             - "8032:80"
-        container_name: nginx_cicd
+        container_name: nginx_devops
         restart: always
