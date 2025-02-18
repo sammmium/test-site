@@ -10,9 +10,9 @@ jobs:
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.HOST }}
-          # key: ${{ secrets.KEY }}
+          key: ${{ secrets.KEY }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          # password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: | 
             cd /home/devops
