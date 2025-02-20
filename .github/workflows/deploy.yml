@@ -15,7 +15,7 @@ jobs:
           # password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: | 
-            cd /home/devops
+            cd /home/test-site
             git pull origin main
             docker compose restart
           
