@@ -6,5 +6,5 @@ services:
             - ./index.html:/usr/share/nginx/html/index.html
         ports:
             - "8062:80"
-        container_name: nginx_devops
+        container_name: nginx_test_site
         restart: always
